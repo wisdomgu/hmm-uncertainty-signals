@@ -1,4 +1,5 @@
 # HMM Uncertainty Signals in Optimal Trade Execution
+[![DOI](https://zenodo.org/badge/1228534501.svg)](https://doi.org/10.5281/zenodo.20079826)
 
 This study asks whether HMM-derived confidence scores can predict when
 regime-aware execution outperforms TWAP, and at what temporal resolution
