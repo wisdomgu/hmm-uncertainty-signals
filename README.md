@@ -16,8 +16,8 @@ critically on the evaluation horizon.
 
 1. Do HMM confidence scores predict regime-aware execution quality on real assets?
 2. At what temporal resolution does predictive power emerge?
-3. Which uncertainty signal — composite confidence, raw entropy, or stay
-   probability — is most informative, and does this vary across asset classes?
+3. Which uncertainty signal, composite confidence, raw entropy, or stay
+   probability, is most informative, and does this vary across asset classes?
 
 ---
 
@@ -154,7 +154,7 @@ This paper extends:
 
 > Garg, S. (2025). Regime Awareness in RL for Optimal Trade Execution:
 > A Simulation Study. SSRN preprint 6559598.  
-> https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6559598
+> https://papers.ssrn.com/abstract=6559598
 
 That study showed flat PPO cannot exploit regime signals even with the true
 label in the state space. This study asks the prior question: are the signals
@@ -164,6 +164,6 @@ empirically predictive at all, and at what timescale?
 
 ## Built On
 
-- [Amrouni et al. (2022)](https://arxiv.org/abs/2202.00941) — CTMSTOU simulation environment (JP Morgan AI Research)
-- [hmmlearn](https://hmmlearn.readthedocs.io/) — HMM fitting
-- [yfinance](https://github.com/ranaroussi/yfinance) — Market data
+- [Amrouni et al. (2022)](https://arxiv.org/abs/2202.00941): CTMSTOU simulation environment (JP Morgan AI Research)
+- [hmmlearn](https://hmmlearn.readthedocs.io/): HMM fitting
+- [yfinance](https://github.com/ranaroussi/yfinance): Market data
